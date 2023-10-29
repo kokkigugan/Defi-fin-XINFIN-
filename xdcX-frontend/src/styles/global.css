@@ -1,0 +1,85 @@
+@tailwind base;
+
+a {
+  @apply text-indigo-600; /* Change text color to an attractive shade of indigo */
+}
+
+a:hover {
+  @apply border-b-2 border-indigo-600; /* Change border color on hover */
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+/* Update the button hover effect */
+.showButtonHover:hover .buttonHidden {
+  display: inline-block;
+  background-color: #4CAF50; /* Change the background color on hover */
+  color: #fff; /* Change text color on hover */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add some rounded corners */
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #333;
+  color: #fff; /* Change text color to white */
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Update the shadow */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.sidebar .text-xl {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #00DBCB; /* Change text color to an aqua shade */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  position: relative;
+  margin: 0;
+  padding: 8px 12px; /* Adjust padding */
+  cursor: pointer;
+  transition: background-color 150ms ease-in-out; /* Smoother transition */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.sidebar li.active {
+  background: #4CAF50; /* Change active item background color */
+  color: #fff; /* Change text color for active item */
+}
+
+/* Applying text color to specific elements */
+.your-element-class {
+  color: #94C1BE; /* Change text color for this element class */
+}
+
+/* Applying background color to specific elements */
+.your-element-class {
+  background-color: #121212; /* Change background color for this element class */
+}
+
+/* Applying background color to the body element */
+body {
+  background-color: #121212; /* Change the overall background color */
+}

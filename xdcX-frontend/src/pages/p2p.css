@@ -1,0 +1,37 @@
+/* CSS for UPIFundTransfer component */
+.upi-fund-transfer {
+  text-align: center;
+  padding: 20px;
+}
+
+.upi-fund-transfer h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.upi-fund-transfer p {
+  font-size: 18px;
+}
+
+.upi-fund-transfer input {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.upi-fund-transfer button {
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.upi-fund-transfer button:hover {
+  background-color: #0056b3;
+}
+
+.upi-fund-transfer p.transaction-message {
+  font-size: 16px;
+}
