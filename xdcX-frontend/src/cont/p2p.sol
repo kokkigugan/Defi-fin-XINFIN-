@@ -4,7 +4,6 @@ pragma solidity ^0.8.0;
 contract UPIFundTransfer {
     address public owner;
     mapping(address => uint256) public balances;
-
     event FundTransferRequest(address indexed from, address indexed to, uint256 amount);
     event FundTransferred(address indexed from, address indexed to, uint256 amount);
     event BalanceChecked(address indexed account, uint256 balance);
